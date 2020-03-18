@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9386a072.chunk.css",
+    "main.js": "/static/js/main.1323c5ba.chunk.js",
+    "main.js.map": "/static/js/main.1323c5ba.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c4d0fa9f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c4d0fa9f.js.map",
+    "static/js/2.5096b936.chunk.js": "/static/js/2.5096b936.chunk.js",
+    "static/js/2.5096b936.chunk.js.map": "/static/js/2.5096b936.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e9839139a24c279e251e24435876bbe2.js": "/precache-manifest.e9839139a24c279e251e24435876bbe2.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.9386a072.chunk.css.map": "/static/css/main.9386a072.chunk.css.map",
+    "static/js/2.5096b936.chunk.js.LICENSE.txt": "/static/js/2.5096b936.chunk.js.LICENSE.txt",
+    "static/media/nxtgame_landing_page.png": "/static/media/nxtgame_landing_page.d299dd94.png",
+    "static/media/project_nxtgame@3x.png": "/static/media/project_nxtgame@3x.450b7dcb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c4d0fa9f.js",
+    "static/js/2.5096b936.chunk.js",
+    "static/css/main.9386a072.chunk.css",
+    "static/js/main.1323c5ba.chunk.js"
+  ]
+}
