@@ -5,7 +5,7 @@ export default function Showcase(){
 
     const items = [
         {color:"black", image: require("../../assets/project_nxtgame@3x.png")},
-        {color:"#626262", image: require("../../assets/nxtgame_landing_page.png")},
+        {color:"#626262", image: require("../../assets/nxtgame_landing@3x.png")},
         // {color:"black", image:require("../../assets/project_nxtgame@3x.png")},
         // {color:"#626262", image:require("../../assets/project_nxtgame@3x.png")}
     ]

@@ -22,6 +22,8 @@
     color: white;
     font-weight: 700;
     text-align: center;
+    animation-name: fadeTextIn;
+    animation-duration: 5s;
 }
 
 #row-1 {
@@ -166,5 +168,15 @@
     .row-2 a {
         display: inline-block;
     
+    }
+ }
+ @keyframes fadeTextIn {
+    0% { 
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        color: white;
     }
  }

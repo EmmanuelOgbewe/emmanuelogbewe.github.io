@@ -1,68 +1,11 @@
 import React, {useState} from 'react'
 import LargeProjectContainer from './LargeContainer.js'
 import Button from '../../common/button/Button'
+import {smallProjectsData,data} from './Data.js'
 import './css/Projects.css'
 import Description from './Description.js'
 
 export default function Projects() {
-
-    const data = [
-        {
-            title: 'NxtGame',
-            year: '2017',
-            descript: 'Revolutionary sports app connecting people to local pick up games near them.',
-            languages: 'Flutter',
-            image: require('../../assets/project_nxtgame@3x.png'),
-            imageBackgroundColor: 'black',
-            url: '',
-            imageDirection: 'left'
-        },
-        {
-            title: 'NxtGame Landing Page',
-            year: '2019',
-            descript: 'Beautifully sleek landing page for the NxtGame app. Sign up for the beta today!',
-            languages: 'Next/Mailchimp',
-            image: require('../../assets/nxtgame_landing_page.png'),
-            imageBackgroundColor: '#626262',
-            marginTop: '5em',
-            url: '',
-            imageDirection: ''
-        }
-    ]
-    const smallProjectsData = [
-        {
-            title: 'CAMR1',
-            year: '2019',
-            descript: 'CAMR1 is an IOS mobile application that recognizes dominant objects with the phone\'s camera using machine learning.',
-            languages: 'See Project',
-            url: 'https://github.com/EmmanuelOgbewe/CAMR1',
-        },
-        {
-            title: 'Neural Network',
-            year: '2019',
-            descript: 'Two layer neural network built in python. Takes in input data and determines a optimal output.',
-            languages: 'See Project',
-            
-            url: 'https://github.com/EmmanuelOgbewe/NeuralNet',
-        },
-        {
-            title: 'CAMR1',
-            year: '2019',
-            descript: 'CAMR1 is an IOS mobile application that recognizes dominant objects with the phone\'s camera using machine learning.',
-            languages: 'See Project',
-            url: 'https://github.com/EmmanuelOgbewe/CAMR1',
-        },
-        {
-            title: 'Neural Network',
-            year: '2019',
-            descript: 'Two layer neural network built in python. Takes in input data and determines a optimal output.',
-            languages: 'See Project',
-            
-            url: 'https://github.com/EmmanuelOgbewe/NeuralNet',
-        },
-        
-        
-    ]
 
     const [currentlyShowing, updateCurrentlyShowing] = useState([smallProjectsData[0],smallProjectsData[1]]) 
     const [isHidden, setHidden] = useState(false)
