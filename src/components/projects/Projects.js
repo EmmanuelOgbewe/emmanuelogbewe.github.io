@@ -44,24 +44,7 @@ export default function Projects() {
             languages: 'See Project',
             
             url: 'https://github.com/EmmanuelOgbewe/NeuralNet',
-        },
-        {
-            title: 'CAMR1',
-            year: '2019',
-            descript: 'CAMR1 is an IOS mobile application that recognizes dominant objects with the phone\'s camera using machine learning.',
-            languages: 'See Project',
-            url: 'https://github.com/EmmanuelOgbewe/CAMR1',
-        },
-        {
-            title: 'Neural Network',
-            year: '2019',
-            descript: 'Two layer neural network built in python. Takes in input data and determines a optimal output.',
-            languages: 'See Project',
-            
-            url: 'https://github.com/EmmanuelOgbewe/NeuralNet',
-        },
-        
-        
+        },  
     ]
 
     const [currentlyShowing, updateCurrentlyShowing] = useState([smallProjectsData[0],smallProjectsData[1]]) 
