@@ -1,0 +1,170 @@
+.header {
+    background-color:black;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.col-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: green; */
+    position: relative;
+    margin-bottom: 5em;
+}
+
+.col-1 h1 {
+    font-size: 3.5em;
+    font-family: 'Montserrat',sans-serif;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+#row-1 {
+    /* background-color: red; */
+    display: flex;
+    margin-bottom: 6em;
+
+}
+
+#text-container, #text-container-2, #text-container-3 {
+
+    /* float: left; */
+    letter-spacing: 7px;
+    /* position: relative;
+    padding: 4vw; */
+    text-align: center;
+    align-items: center;
+    
+}
+
+#text-container h1, #text-container-2 h1, #text-container-3 h1 {
+    text-align: center;
+    background-color: black;
+}
+
+.row-2 {
+    bottom: 3%;
+    margin-left: 7%;
+    /* width: 18em; */
+    display: flex;
+    flex-direction: row;
+
+    /* background-color: red; */
+}
+
+.row-2 img {
+    width: 33.3%; 
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)  {
+    .col-1 h1{
+        font-size: 2.1em;
+    }
+    #row-1 {
+        flex-direction: column;
+    }
+    #text-container, #text-container-2, #text-container-3 {
+        width: 100%;
+        padding: 1vw;
+        text-align: center;
+    }
+    .row-2 {
+        width: 12em;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .col-1 h1{
+        font-size: 2.1em;
+    }
+    #row-1 {
+        flex-direction: column;
+    }
+    #text-container, #text-container-2, #text-container-3 {
+        width: 100%;
+        padding: 1vw;
+        text-align: center;
+    }
+    .row-2 {
+        width: 12em;
+    }
+   
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .col-1 h1{
+        font-size: 3.2em;
+    }
+    #row-1 {
+        flex-direction: column;
+
+    }
+    #text-container, #text-container-2, #text-container-3 {
+        width: 100%;
+        padding: 1vw;
+        text-align: center;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1025px) {
+    .col-1 h1{
+        font-size: 3.5em;
+    }
+
+    #row-1{
+        flex-direction: row;
+    }
+    #text-container, #text-container-2, #text-container-3 {
+        padding: 4vw;
+        text-align: center;
+    }
+    .row-2 {
+        width: 18em;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .col-1 h1{
+        font-size: 3.2em;
+    }
+    .row-2 {
+        width: 18em;
+    }
+}
+
+/*Handle orientations */
+@media screen and (orientation:landscape) and (max-width: 1034px) {
+    /* Landscape styles here */
+    .header {
+        align-items: center;
+    }
+    .col-1 h1{
+        font-size: 3.7vw;
+    }
+
+    #row-1  {
+        flex-direction: row;
+        margin-bottom: 2em;
+    }
+    .row-2{
+        margin: 0px; 
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .row-2 a {
+        display: inline-block;
+    
+    }
+ }

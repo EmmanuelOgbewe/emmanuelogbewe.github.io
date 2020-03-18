@@ -1,0 +1,81 @@
+#description-wrapper {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;  
+}
+
+#description-wrapper h1 {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 2.2em ;
+    color: black;
+    font-weight: 600;
+    text-align: left;
+}
+
+#description-wrapper #year {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.2em ;
+    color: black;
+    font-weight: 500;
+}
+
+#description-wrapper #descript {
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.2em ;
+    color: black;
+    font-weight: 500;
+    /* height: 30%; */
+}
+
+#description-wrapper #l{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.4em ;
+    font-weight: 500;
+    /* background-color: aqua; */
+    color: #DD5858;
+}
+
+#languages-wrapper {
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+#description-wrapper h1, #year, #descript, #l, #languages-wrapper {
+    margin-bottom: 5px;
+    text-align: left;
+    /* background-color: aqua; */
+}
+
+@media screen and (max-width : 600px) {
+
+    #description-wrapper {
+        width: 100%;
+        align-items: center;
+        padding: 0em 2em !important ;
+        margin-bottom: 2em !important;
+    }
+    
+    #description-wrapper h1, #year, #descript, #l, #languages-wrapper {
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    #description-wrapper #descript {
+        font-size: 1.1em;
+    }
+
+    #l{
+        margin-top: 20px !important;
+    }
+}
+
+@media screen and (max-width : 1024px){
+    #description-wrapper #descript {
+        /* height: 50% !important;
+        overflow-y: scroll; */
+        /* background-color: #DD5858; */
+    }
+}

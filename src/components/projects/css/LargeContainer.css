@@ -1,0 +1,27 @@
+.large-project-container-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: auto;
+    /* background-color: red; */
+}
+
+#project-image-wrapper {
+    /* height: 100%;  */
+    width: 50%;
+    /* background-color: orange; */
+}
+
+
+
+@media screen and (max-width : 600px) {
+    .large-project-container-wrapper {
+        height: auto;
+        margin: 0 !important;
+    }
+    #project-image-wrapper {
+        display: none;
+        
+    }
+}
